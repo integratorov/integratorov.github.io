@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Integratorov</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__content flex-sb">
+            <a href="" class="header__logo"><img src="img/logo.png" alt=""></a>
+            <nav class="nav" id="nav">
+                <ul>
+                    <li><i class="fas fa-times" id="nav-close"></i></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Programs</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <i class="fas fa-bars" id="nav-toggle"></i>
+            </div>
+        </header>
+        
+        <section class="section bd-grid">
+            <div class="section__content">
+                <h4 class="section__caption">Integrate IoT in to Your <span>Bussiness</span></h4>
+                <p class="section__paragraph">We, Integratorov, want to provide solutions to problems in the field of maintenance in electrical and mechanical by integrating IoT and AI connected to smartphone devices to increase flexibility and efficiency for engineers.</p>
+                <a href="" class="section__button">Get Started</a>
+            </div>
+            <div class="section__background">
+                <div class="dua"><img src="/img/logo.png.jpeg" alt=""></div>
+            </div>
+        </section>
+
+        <article class="article bg-black">
+            <div class="article__wrap">
+            <h4 class="article__caption">Company Focuses</h4>
+            <div class="article__content bc-grid">
+                <a href="" class="article__column bg-white">
+                    <div class="bg-image-1 bg-img"></div>
+                    <span class="bg-white">Solar PV</span>
+                    <div class="column__wrap">
+                    <h5 class="column__caption">Solar PV Integrators</h5>
+                    <p>Integratorov is deploying IoT-based computing platforms in their solar power projects. The platforms provide device monitoring, while the associated cloud services provide advanced data analysis. Operators can send their device data to the cloud and perform advanced data analytics, which can help them align their production and distribution cycles.</p>
+                     </div>
+                </a>
+                <a href="" class="article__column bg-white">
+                    <div class="bg-image-2 bg-img"></div>
+                    <span class="bg-white">Electrical Distribution</span>
+                    <div class="column__wrap">
+                    <h5 class="column__caption">Electrical Distribution Integrators</h5>
+                    <p>Intelligent perception device for community IoT sensing was first introduced, and then, the operation monitoring and metering equipment in the distribution station area was integrated to enhance the panoramic state sensing capability. The expansion application direction of data-driven distribution IoT was proposed from the typical application scenario of the terminal.</p>
+                    </div>
+                </a>
+                <a href="" class="article__column bg-white">
+                    <div class="bg-image-3 bg-img"></div>
+                    <span class="bg-white">Mechanical Maintenance</span>
+                    <div class="column__wrap">
+                    <h5 class="column__caption">Mechanical Maintenance Integrators</h5>
+                    <p>Machinery maintenance involves regular servicing of equipment, routine checks, repair work, and replacement of worn or nonfunctional parts. With Integratorov all regular maintenance activities can be monitoring by remote.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        </article>
+
+        <div class="social__media flex-ce">
+            <h5 class="caption__socmed">FOLLOW CONSULTING</h5>
+            <a class="list__social" href="https://www.instagram.com/hazelradityam/"><i class="fab fa-instagram"></i></a>
+            <a class="list__social" href="https://twitter.com/RaihanAdiNugroh"><i class="fab fa-twitter"></i></a>
+            <a class="list__social" href="https://www.facebook.com/myfriendraihan/"><i class="fab fa-facebook-f"></i></a>
+            <a class="list__social" href="https://www.linkedin.com/in/hazelradityam/"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+
+        <footer class="footer">
+            <div class="footer__right bg-grey footer__padding">
+                <div class="footer__logo">
+                    <img src="img/imglogo.png.jpeg" alt="" style="width: 100px;">
+                    <p>© Since 2022 Integratorov, All Rights Reserved.</p>
+                </div>
+                <div class="footer__menu">
+                    <a href="">Careers</a>
+                    <a href="">Gallery</a>
+                    <a href="">Become a Member</a>
+                    <a href="">Become a Donatur</a>
+                    <a href="">Media Inquiries</a>
+                </div>
+            </div>
+            <div class="footer__left footer__padding">
+                <h5>OFFICE JAKARTA</h5>
+                <div class="footer__line"></div>
+                <P> We firmly believe in the trend that homes are taking on more intelligence and we are here to provide thevery thing with confidence. Together with our distributors and partners worldwide,we are bound to set higher standards and achieve more. <br>
+                    <br>
+
+                    We will answer your questions straightforwardly by e-mail or call you back. Just as you wish.
+                    </P>
+                <p>+(62) 87886797235 - Hazel Raditya M.</p>
+                <p>+(62) 82229872280 - Raihan Adi Nugroho</p>
+            </div>
+        </footer>
+        
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script>
+        const navMenu = document.getElementById('nav'),
+        toggleMenu = document.getElementById('nav-toggle'),
+        closeMenu = document.getElementById('nav-close')
+ 
+        toggleMenu.addEventListener('click', ()=>{
+        navMenu.classList.toggle('slide')
+        })
+
+        closeMenu.addEventListener('click', ()=>{
+        navMenu.classList.remove('slide')
+        })
+  </script>
+    </body>
+</html>
